@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/react-portfolio-website/static/css/main.40524678.css",
-    "main.js": "/react-portfolio-website/static/js/main.f5e2580e.js",
-    "static/media/intro-img.png": "/react-portfolio-website/static/media/intro-img.d2a52f98299b7fcb989b.png",
-    "static/media/hero-img.png": "/react-portfolio-website/static/media/hero-img.8cfc075ea2ce686b6561.png",
-    "static/media/project-image.png": "/react-portfolio-website/static/media/project-image.8cfc075ea2ce686b6561.png",
-    "index.html": "/react-portfolio-website/index.html",
-    "main.40524678.css.map": "/react-portfolio-website/static/css/main.40524678.css.map",
-    "main.f5e2580e.js.map": "/react-portfolio-website/static/js/main.f5e2580e.js.map"
+    "main.css": "/Jay7221.github.io/react-portfolio-website/static/css/main.f13f8b88.css",
+    "main.js": "/Jay7221.github.io/react-portfolio-website/static/js/main.ade15fa1.js",
+    "static/media/intro-img.png": "/Jay7221.github.io/react-portfolio-website/static/media/intro-img.d2a52f98299b7fcb989b.png",
+    "static/media/hero-img.png": "/Jay7221.github.io/react-portfolio-website/static/media/hero-img.8cfc075ea2ce686b6561.png",
+    "static/media/project-image.png": "/Jay7221.github.io/react-portfolio-website/static/media/project-image.8cfc075ea2ce686b6561.png",
+    "index.html": "/Jay7221.github.io/react-portfolio-website/index.html",
+    "main.f13f8b88.css.map": "/Jay7221.github.io/react-portfolio-website/static/css/main.f13f8b88.css.map",
+    "main.ade15fa1.js.map": "/Jay7221.github.io/react-portfolio-website/static/js/main.ade15fa1.js.map"
   },
   "entrypoints": [
-    "static/css/main.40524678.css",
-    "static/js/main.f5e2580e.js"
+    "static/css/main.f13f8b88.css",
+    "static/js/main.ade15fa1.js"
   ]
 }
