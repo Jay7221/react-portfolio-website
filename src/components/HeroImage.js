@@ -1,13 +1,12 @@
 import React from 'react'
 import './HeroImage.css';
-import IntroImg from "../assets/intro-img.png";
 import { Link } from 'react-router-dom';
 
 const HeroImage = () => {
   return (
     <div className="hero">
         <div className="mask">
-            <img src={IntroImg} alt="Intro" className="intro-img" />
+            <img src='/images/intro-img.png' alt="Intro" className="intro-img" />
         </div>
         <div className="content">
             <p>HI, I'M A COMPETITVE PROGRAMMER and sometimes a DEVELOPER</p>

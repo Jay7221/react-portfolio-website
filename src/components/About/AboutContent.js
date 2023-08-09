@@ -1,8 +1,5 @@
 import './AboutContent.css';
 import React from 'react'
-import { Link } from 'react-router-dom';
-import img2 from '../assets/codechef_rating.png';
-import img1 from '../assets/competitive_programming.png';
 
 const AboutContent = () => {
   return (
@@ -22,10 +19,10 @@ const AboutContent = () => {
         <div className="right">
             <div className="img-container">
                 <div className="img-stack top">
-                    <img src={ img1 } alt="true" className='img' />
+                    <img src='/images/competitive_programming.png' alt="true" className='img' />
                 </div>
                 <div className="img-stack bottom">
-                    <img src={ img2 } alt="true" className='img' />
+                    <img src='/images/codechef_rating.png' alt="true" className='img' />
                 </div>
             </div>
         </div>

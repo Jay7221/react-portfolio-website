@@ -1,13 +1,11 @@
 import React from 'react'
-import NavBar from '../components/NavBar'
-import Footer from '../components/Footer'
-import HeroImage2 from '../components/HeroImage2';
-import AboutContent from '../components/AboutContent';
+import Footer from '../Footer/Footer';
+import HeroImage2 from '../HeroImage2';
+import AboutContent from './AboutContent';
 
 const About = () => {
   return (
     <div>
-      <NavBar/>
       <HeroImage2 heading="ABOUT." text="I am a Competitive Programmer" />
       <AboutContent/>
       <Footer/>
