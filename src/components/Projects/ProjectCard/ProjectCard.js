@@ -1,8 +1,8 @@
-import "./WorkCard.css";
+import './index.css';
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-const WorkCard = (props) => {
+const ProjectCard = (props) => {
   console.log(props);
   return (
     <div className="project-card">
@@ -23,4 +23,4 @@ const WorkCard = (props) => {
   );
 };
 
-export default WorkCard;
+export default ProjectCard;

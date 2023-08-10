@@ -1,4 +1,4 @@
-import './Form.css';
+import './index.css';
 import React from 'react'
 
 const Form = () => {

@@ -1,6 +1,6 @@
+import './index.css';
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
-import './NavBar.css';
 import { FaBars, FaTimes } from 'react-icons/fa';
 
 const NavBar = () => {
@@ -31,7 +31,7 @@ const NavBar = () => {
             <Link to="/" onClick={handleClick}>Home</Link>
           </li>
           <li>
-            <Link to="/project" onClick={handleClick}>Project</Link>
+            <Link to="/project" onClick={handleClick}>Projects</Link>
           </li>
           <li>
             <Link to="/about" onClick={handleClick}>About</Link>

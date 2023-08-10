@@ -2,17 +2,17 @@ import React from 'react'
 import NavBar from '../NavBar/NavBar'
 import Footer from '../Footer/Footer'
 import HeroImage2 from '../HeroImage2'
-import Work from './Work'
+import Projects from './Projects'
 
-const Project = () => {
+const ProjectPage = () => {
   return (
     <div>
       <NavBar/>
       <HeroImage2 heading="PROJECTS." text="Some of my most recent works" />
-      <Work/>
+      <Projects/>
       <Footer/>
     </div>
   )
 }
 
-export default Project
+export default ProjectPage;

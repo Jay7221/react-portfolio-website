@@ -1,18 +1,17 @@
-import './WorkCard.css';
 import React from 'react'
-import WorkCard from './WorkCard';
-import WorkCardData from './WorkCardData';
+import ProjectCard from './ProjectCard/ProjectCard';
+import ProjectData from '../../constants/ProjectData';
 
-const Work = () => {
+const Projects = () => {
   return (
     <div className="work-container">
         <h1 className="project-heading">Projects</h1>
         <div className="project-container">
             {
-                WorkCardData.map(
+                ProjectData.map(
                     (curElem) => {
                         return (
-                            <WorkCard prop={curElem} key={curElem.id} />
+                            <ProjectCard prop={curElem} key={curElem.id} />
                         );
                     }
                 )
@@ -22,4 +21,4 @@ const Work = () => {
   )
 }
 
-export default Work
+export default Projects

@@ -1,7 +1,7 @@
-const ProjectCardData = [
+const ProjectData = [
     {
         id: 1,
-        imgsrc: '/images/project-image.png',
+        imgsrc: '/images/Projects/idea-management-platform/login.png',
         title: "Idea Management Platform",
         text: "This was a project that we did for the Bridgestone Webathon which was a part of the COEP MindSpark22 megaevent. It's basically a web platform for people to put their ideas. We secured 2nd rank in the hackathon.",
         view: "https://idea-management-platform-main.onrender.com",
@@ -15,6 +15,14 @@ const ProjectCardData = [
         view: "https://codeforces.com",
         source: "https://github.com/CosmicLords/AssignmentHelper"
     },
+    {
+        id: 3,
+        imgsrc: '/images/Projects/mern-memories/home.png',
+        title: "MERN Memories",
+        text: "Made as a learning project, this is a full stack CRUD applications where you can make posts and view other's posts. It also has a authentication system implemented using JWT tokens.",
+        view: "https://codeforces.com",
+        source: "https://github.com/CosmicLords/AssignmentHelper"
+    },
 ];
 
-export default ProjectCardData;
+export default ProjectData;
