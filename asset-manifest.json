@@ -1,18 +1,13 @@
 {
   "files": {
-    "main.css": "/react-portfolio-website/static/css/main.6cfb6754.css",
-    "main.js": "/react-portfolio-website/static/js/main.d36a5ffa.js",
-    "static/media/competitive_programming.png": "/react-portfolio-website/static/media/competitive_programming.bf1de5c97bfb032d8f76.png",
-    "static/media/intro-img.png": "/react-portfolio-website/static/media/intro-img.d2a52f98299b7fcb989b.png",
-    "static/media/hero-img.png": "/react-portfolio-website/static/media/hero-img.8cfc075ea2ce686b6561.png",
-    "static/media/project-image.png": "/react-portfolio-website/static/media/project-image.8cfc075ea2ce686b6561.png",
-    "static/media/codechef_rating.png": "/react-portfolio-website/static/media/codechef_rating.3f5a935eeaaa55bbfd8e.png",
-    "index.html": "/react-portfolio-website/index.html",
-    "main.6cfb6754.css.map": "/react-portfolio-website/static/css/main.6cfb6754.css.map",
-    "main.d36a5ffa.js.map": "/react-portfolio-website/static/js/main.d36a5ffa.js.map"
+    "main.css": "/static/css/main.b4b39820.css",
+    "main.js": "/static/js/main.d97cff5a.js",
+    "index.html": "/index.html",
+    "main.b4b39820.css.map": "/static/css/main.b4b39820.css.map",
+    "main.d97cff5a.js.map": "/static/js/main.d97cff5a.js.map"
   },
   "entrypoints": [
-    "static/css/main.6cfb6754.css",
-    "static/js/main.d36a5ffa.js"
+    "static/css/main.b4b39820.css",
+    "static/js/main.d97cff5a.js"
   ]
 }
