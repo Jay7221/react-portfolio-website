@@ -2,19 +2,19 @@ import './index.css';
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-const ProjectCard = (props) => {
-  console.log(props);
+const ProjectCard = ({ data }) => {
+  const { title, imgsrc, text, view, source } = data;
   return (
     <div className="project-card">
-      <img src={props.prop.imgsrc} alt="Project" />
-      <h2 className="project-title">{props.prop.title}</h2>
+      <img src={imgsrc} alt="Project" />
+      <h2 className="project-title">{title}</h2>
       <div className="pro-details">
-        <p>{props.prop.text}</p>
+        <p>{text}</p>
         <div className="pro-btns">
-          <NavLink to={props.prop.view} className="btn">
+          <NavLink to={view} className="btn">
             VIEW
           </NavLink>
-          <NavLink to={props.prop.source} className="btn">
+          <NavLink to={source} className="btn">
             SOURCE
           </NavLink>
         </div>

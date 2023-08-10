@@ -36,9 +36,9 @@ const NavBar = () => {
           <li>
             <Link to="/about" onClick={handleClick}>About</Link>
           </li>
-          <li>
+          {/* <li>
             <Link to="/games" onClick={handleClick}>Games</Link>
-          </li>
+          </li> */}
         </ul>
       <div className="hamburger" onClick={handleClick}>
         {

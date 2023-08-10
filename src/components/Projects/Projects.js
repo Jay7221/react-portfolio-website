@@ -11,7 +11,7 @@ const Projects = () => {
                 ProjectData.map(
                     (curElem) => {
                         return (
-                            <ProjectCard prop={curElem} key={curElem.id} />
+                            <ProjectCard data={curElem} key={curElem.id} />
                         );
                     }
                 )
