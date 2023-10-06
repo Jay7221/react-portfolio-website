@@ -1,16 +1,18 @@
-import React from 'react'
-import HeroImage from '../HeroImage';
-import Footer from '../Footer/Footer';
-import Work from '../Projects/Projects';
+import React from "react";
+import HeroImage from "../HeroImage";
+import Footer from "../Footer/Footer";
+import ProjectContainer from "../Projects/ProjectContainer";
+import SkillSection from "../Projects/SkillSection";
 
 const Home = () => {
   return (
     <div>
       <HeroImage />
-      <Work/>
-      <Footer/>
+      <ProjectContainer />
+      <SkillSection />
+      <Footer />
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

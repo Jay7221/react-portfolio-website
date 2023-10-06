@@ -6,7 +6,7 @@ import Contact from './components/Contact/Contact';
 import Games from './components/Games/Games';
 import Home from './components/Home/Home';
 import ProjectsPage from './components/Projects/ProjectsPage';
-import Project from './components/Projects/Project';
+import ProjectPage from './components/Projects/ProjectPage';
 import NavBar from './components/NavBar/NavBar';
 
 const App = () => {
@@ -16,7 +16,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/project" element={<ProjectsPage />} />
-        <Route path="/project/:slug" element={<Project/>} />
+        <Route path="/project/:id" element={<ProjectPage/>} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/games" element={<Games />} />
