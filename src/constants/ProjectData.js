@@ -20,8 +20,8 @@ const ProjectData = [
         imageUrl: '/images/Projects/mern-memories/home.png',
         title: "MERN Memories",
         description: "Made as a learning project, this is a full stack CRUD applications where you can make posts and demoLink other's posts. It also has a authentication system implemented using JWT tokens.",
-        demoLink: "https://codeforces.com",
-        sourceCodeLink: "https://github.com/CosmicLords/AssignmentHelper"
+        demoLink: "https://mern-memories-one.vercel.app/",
+        sourceCodeLink: "https://github.com/Jay7221/mern-memories"
     },
 ];
 
