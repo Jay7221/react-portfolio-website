@@ -8,9 +8,7 @@ const ProjectContainer = () => {
     <div className="container mx-auto py-8">
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
         {ProjectData.map((project) => (
-          <Link to={`/project/${project.id}`} key={project.id}>
           <ProjectCard key={project.id} project={project} />
-          </Link>
         ))}
       </div>
     </div>
