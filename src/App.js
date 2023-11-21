@@ -1,28 +1,25 @@
-import React from 'react'
-import './index.css';
-import { Routes, Route } from 'react-router-dom'
-import About from './components/About/About';
-import Contact from './components/Contact/Contact';
-import Games from './components/Games/Games';
-import Home from './components/Home/Home';
-import ProjectsPage from './components/Projects/ProjectsPage';
-import ProjectPage from './components/Projects/ProjectPage';
-import NavBar from './components/NavBar/NavBar';
+import React from "react";
+import NavBar from "./components/NavBar";
+import Home from "./components/Home";
+import SocialLinks from "./components/SocialLinks";
+import About from "./components/About";
+import Portfolio from "./components/Portfolio";
+import Experience from "./components/Experience";
+import Contact from "./components/Contact";
 
 const App = () => {
   return (
     <div>
-      <NavBar/>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/project" element={<ProjectsPage />} />
-        <Route path="/project/:id" element={<ProjectPage/>} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/games" element={<Games />} />
-      </Routes>
-    </div>
-  )
-}
+      <NavBar />
+      <Home />
+      <About />
+      <Portfolio />
+      <Experience />
+      <Contact />
 
-export default App
+      <SocialLinks />
+    </div>
+  );
+};
+
+export default App;
