@@ -3,6 +3,7 @@ import React from 'react'
 import html from "../assets/html.png";
 import css from "../assets/css.png";
 import java from '../assets/java.png';
+import cpp from '../assets/cpp.png';
 
 const Experience = () => {
     const techs = [
@@ -22,6 +23,12 @@ const Experience = () => {
             id: 3,
             src: java,
             title: 'Java',
+            style: 'shadow-red-500'
+        },
+        {
+            id: 4,
+            src: cpp,
+            title: 'C++',
             style: 'shadow-blue-500'
         },
     ];

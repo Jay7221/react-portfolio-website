@@ -7,11 +7,15 @@ const About = () => {
                 <div className='pb-8'>
                     <p className='text-4xl font-bold inline border-b-4 border-gray-500'>About</p>
                 </div>
-                <p className='text-xl mt-20'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, modi dolorem in, officia atque cupiditate amet minima a labore, natus nostrum nihil placeat. Aspernatur, veniam officia? Mollitia non quae nobis pariatur, est fuga suscipit maiores deleniti voluptatibus laborum fugit dolorum minima quas, eligendi iure at quibusdam officia quasi quis quos!</p>
-
+                <p className='text-xl mt-20'>
+                    Hello there! I am a passionate coder with a deep interest in Mathematics and Computer Science, and I find great joy in engaging with competitive programming.
+                    Over the past two years, I have actively participated in coding contests on platforms like Codeforces and CodeChef, achieving notable milestones (including a maximum rating of 6 stars on CodeChef and reaching the Blue Expert level on Codeforces). Alongside my competitive programming journey,
+                </p>
                 <br />
-
-                <p className='text-xl mt-5'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, minus ipsum earum totam at sit temporibus architecto. Iusto nisi ratione dolor deserunt sunt consequuntur consequatur praesentium, nostrum neque aliquam tenetur harum minus laudantium, accusantium perferendis adipisci nemo possimus, numquam nulla dolorem deleniti beatae! Minus doloribus aperiam officiis nulla quos molestias?</p>
+                <p className='text-xl mt-5'>
+                    I have also delved into the Django framework, utilizing it effectively during various hackathons. I've had the opportunity to contribute to backend application development, resulting in my team securing top-three positions on several occasions.
+                    Furthermore, I possess a strong fascination with the field of Artificial Intelligence and its potential applications. This passion drives me to continually explore and learn more about AI.
+                </p>
             </div>
         </div>
     )

@@ -1,31 +1,20 @@
 import React from 'react'
-import arrayDestruct from '../assets/portfolio/computer-programming.webp';
+import ideaManagement from '../assets/portfolio/ideaManagementPlatform.png';
+import mernMemories from '../assets/portfolio/mernMemories.png';
 
 const Portfolio = () => {
     const portfolios = [
         {
             id: 1,
-            src: arrayDestruct,
+            src: ideaManagement,
+            demo: 'https://idea-management-platform-main.onrender.com/',
+            code: 'https://github.com/KattaGang/BridgeStoneProjectHostRepo',
         },
         {
             id: 2,
-            src: arrayDestruct,
-        },
-        {
-            id: 3,
-            src: arrayDestruct,
-        },
-        {
-            id: 4,
-            src: arrayDestruct,
-        },
-        {
-            id: 5,
-            src: arrayDestruct,
-        },
-        {
-            id: 6,
-            src: arrayDestruct,
+            src: mernMemories,
+            demo: 'https://mern-memories-one.vercel.app/',
+            code: 'https://github.com/Jay7221/mern-memories',
         },
     ];
     return (
@@ -41,12 +30,16 @@ const Portfolio = () => {
 
                 <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0'>
                     {
-                        portfolios.map(({ id, src }) => (
+                        portfolios.map(({ id, src, demo, code }) => (
                             <div key={id} className='shadow-md shadow-gray-600 rounded-lg'>
                                 <img src={src} alt="" className='rounded-md duration-200 hover:scale-105' />
                                 <div className='flex justify-between items-center'>
-                                    <button className='w-1/2 px-6 m-4 duration-200 hover:scale-110'>Demo</button>
-                                    <button className='w-1/2 px-6 m-4 duration-200 hover:scale-110'>Code</button>
+                                    <button className='w-1/2 px-6 m-4 duration-200 hover:scale-110'>
+                                        <a href={demo} target='_blank'>Demo</a>
+                                    </button>
+                                    <button className='w-1/2 px-6 m-4 duration-200 hover:scale-110'>
+                                        <a href={code} target='_blank'>Code</a>
+                                    </button>
                                 </div>
                             </div>
                         ))
