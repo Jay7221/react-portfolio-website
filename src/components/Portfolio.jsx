@@ -1,6 +1,7 @@
 import React from 'react'
 import ideaManagement from '../assets/portfolio/ideaManagementPlatform.png';
 import mernMemories from '../assets/portfolio/mernMemories.png';
+import gesturePresentation from '../assets/portfolio/gesturePresentation.png';
 
 const Portfolio = () => {
     const portfolios = [
@@ -9,12 +10,21 @@ const Portfolio = () => {
             src: ideaManagement,
             demo: 'https://idea-management-platform-main.onrender.com/',
             code: 'https://github.com/KattaGang/BridgeStoneProjectHostRepo',
+            title: 'Idea Management Platform',
         },
         {
             id: 2,
             src: mernMemories,
             demo: 'https://mern-memories-one.vercel.app/',
             code: 'https://github.com/Jay7221/mern-memories',
+            title: 'MERN Memories',
+        },
+        {
+            id: 3,
+            src: gesturePresentation,
+            demo: 'https://mern-memories-one.vercel.app/',
+            code: 'https://github.com/Jay7221/mern-memories',
+            title: 'Gesture Controlled Presentation',
         },
     ];
     return (
@@ -30,14 +40,26 @@ const Portfolio = () => {
 
                 <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0'>
                     {
-                        portfolios.map(({ id, src, demo, code }) => (
-                            <div key={id} className='shadow-md shadow-gray-600 rounded-lg'>
-                                <img src={src} alt="" className='rounded-md duration-200 hover:scale-105' />
+                        portfolios.map(({ id, src, demo, code, title }) => (
+                            <div key={id} className='shadow-md shadow-gray-600 rounded-lg overflow-hidden'>
+                                <img src={src} alt="" className='rounded-md duration-200 hover:scale-105 h-40 w-80' />
+                                <div className='flex justify-center items-center h-20
+                                bg-gradient-to-br
+                                from-gray-800
+                                to-gray-800
+                                '>
+                                    <p className='text-xl mt-4 text-center'>{title}</p>
+                                </div>
                                 <div className='flex justify-between items-center'>
-                                    <button className='w-1/2 px-6 m-4 duration-200 hover:scale-110'>
+                                    <button className='w-1/2 px-10 p-4 duration-200 hover:scale-110 
+                                    hover:bg-gradient-to-r from-gray-800 to-blue-500
+                                    shadow-sm shadow-white'>
                                         <a href={demo} target='_blank'>Demo</a>
                                     </button>
-                                    <button className='w-1/2 px-6 m-4 duration-200 hover:scale-110'>
+
+                                    <button className='w-1/2 px-10 p-4 duration-200 hover:scale-110 
+                                    hover:bg-gradient-to-r to-gray-800 from-red-500
+                                    shadow-sm shadow-white'>
                                         <a href={code} target='_blank'>Code</a>
                                     </button>
                                 </div>
