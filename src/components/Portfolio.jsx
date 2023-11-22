@@ -22,8 +22,8 @@ const Portfolio = () => {
         {
             id: 3,
             src: gesturePresentation,
-            demo: 'https://mern-memories-one.vercel.app/',
-            code: 'https://github.com/Jay7221/mern-memories',
+            demo: 'https://github.com/Jay7221/gesture-controlled-presentation',
+            code: 'https://github.com/Jay7221/gesture-controlled-presentation',
             title: 'Gesture Controlled Presentation',
         },
     ];
