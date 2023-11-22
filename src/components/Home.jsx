@@ -16,13 +16,11 @@ const Home = () => {
                             sequence={[
                                 ' Competitive Programmer',
                                 1000,
-                                ' Frontend Developer',
-                                1000,
-                                ' Full Stack Developer',
+                                ' Web Developer',
                                 1000,
                                 ' ML Enthusiast',
                                 1000,
-                                ' Math Freak',
+                                ' Math Enthusiast',
                                 1000
                             ]}
                             wrapper='span'
