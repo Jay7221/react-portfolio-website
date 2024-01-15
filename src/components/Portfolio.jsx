@@ -24,7 +24,7 @@ const Portfolio = () => {
             src: gesturePresentation,
             demo: 'https://github.com/Jay7221/gesture-controlled-presentation',
             code: 'https://github.com/Jay7221/gesture-controlled-presentation',
-            title: 'Gesture Controlled Presentation',
+            title: 'GestureFlow Gesture Controlled Presentation',
         },
     ];
     return (

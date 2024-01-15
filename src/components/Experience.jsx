@@ -2,34 +2,36 @@ import React from 'react'
 
 import html from "../assets/html.png";
 import css from "../assets/css.png";
-import java from '../assets/java.png';
+import python from '../assets/python.png';
 import cpp from '../assets/cpp.png';
+import pytorch from '../assets/pytorch.png';
+import opencv from '../assets/opencv.png';
 
 const Experience = () => {
     const techs = [
         {
             id: 1,
-            src: html,
-            title: 'HTML',
-            style: 'shadow-orange-500'
+            src: python,
+            title: 'Python',
+            style: 'shadow-yellow-500'
         },
         {
             id: 2,
-            src: css,
-            title: 'CSS',
+            src: cpp,
+            title: 'C++',
             style: 'shadow-blue-500'
         },
         {
             id: 3,
-            src: java,
-            title: 'Java',
+            src: pytorch,
+            title: 'PyTorch',
             style: 'shadow-red-500'
         },
         {
-            id: 4,
-            src: cpp,
-            title: 'C++',
-            style: 'shadow-blue-500'
+            id: 3,
+            src: opencv,
+            title: 'OpenCV',
+            style: 'shadow-green-500'
         },
     ];
     return (
