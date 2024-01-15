@@ -51,17 +51,17 @@ const Portfolio = () => {
                                     <p className='text-xl mt-4 text-center'>{title}</p>
                                 </div>
                                 <div className='flex justify-between items-center'>
-                                    <button className='w-1/2 px-10 p-4 duration-200 hover:scale-110 
-                                    hover:bg-gradient-to-r from-gray-800 to-blue-500
-                                    shadow-sm shadow-white'>
-                                        <a href={demo} target='_blank'>Demo</a>
-                                    </button>
+                                    <a href={demo} target='_blank' className='w-1/2 px-10 p-4 duration-200 hover:scale-110 
+                                    hover:bg-gradient-to-r from-gray-800 to-blue-500 text-center
+                                    shadow-sm shadow-white' >
+                                        Demo
+                                    </a>
 
-                                    <button className='w-1/2 px-10 p-4 duration-200 hover:scale-110 
-                                    hover:bg-gradient-to-r to-gray-800 from-red-500
+                                    <a href={code} target='_blank' className='w-1/2 px-10 p-4 duration-200 hover:scale-110 
+                                    hover:bg-gradient-to-r to-gray-800 from-red-500 text-center
                                     shadow-sm shadow-white'>
-                                        <a href={code} target='_blank'>Code</a>
-                                    </button>
+                                        Code
+                                    </a>
                                 </div>
                             </div>
                         ))
